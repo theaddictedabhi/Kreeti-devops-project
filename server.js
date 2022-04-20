@@ -11,7 +11,7 @@ const app = express();
 app.get("/", (req, res) => {
     // res.send('Abhimanyu mera nam');
     // console.log(__dirname+ "index");
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile("/index.html");
 });
 // app.get('/home', (req, res) => {
 //   res.send('home is working!');
